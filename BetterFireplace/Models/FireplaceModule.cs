@@ -1,8 +1,9 @@
 using System.Text.RegularExpressions;
+using AssetRedux.Models;
 
 namespace BetterFireplace.Models;
 
-public class FireplaceMoudle : BaseResourceModule
+public class FireplaceModule : BaseResourceModule
 {
     public override string ModuleName => "壁炉范围增强模块";
 
