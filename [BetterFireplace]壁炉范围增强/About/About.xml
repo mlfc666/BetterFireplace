@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+  <name>[BetterFireplace]壁炉范围增强模块</name>
+  <authors>
+    <li>梦落凡尘</li>
+  </authors>
+  <description>
+    提升壁炉的可供应范围为原来的10倍
+  </description>
+  <url>https://github.com/mlfc666/AssetRedux</url>
+  <packageId>moe.mlfc.BetterFireplace</packageId>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <modVersion>20260218.18</modVersion>
+</ModMetaData>
