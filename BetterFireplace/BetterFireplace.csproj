@@ -38,6 +38,7 @@
         </Reference>
         <Reference Include="AssetRedux">
           <HintPath>..\..\AssetRedux\[AssetRedux]资源重制框架\Assemblies\AssetRedux.dll</HintPath>
+          <Private>False</Private>
         </Reference>
         <Reference Include="AssetRipper.CIL">
             <HintPath>..\..\..\..\.local\share\Steam\steamapps\common\Territory\BepInEx\core\AssetRipper.CIL.dll</HintPath>

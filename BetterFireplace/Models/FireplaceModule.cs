@@ -29,12 +29,12 @@ public class FireplaceModule : BaseResourceModule
             // 在 ID 104014 的块内查找 effect_range
             string rangePattern = @"(""effect_range""\s*:\s*)216(\b)";
             
-            // 替换：216 * 5 = 1080
+            // 替换：216 * 10 = 2160
             return Regex.Replace(blockContent, rangePattern, rangeMatch =>
             {
                 string prefix = rangeMatch.Groups[1].Value;
                 string boundary = rangeMatch.Groups[2].Value;
-                return $"{prefix}1080{boundary}";
+                return $"{prefix}2160{boundary}";
             });
         }, RegexOptions.Singleline);
     }

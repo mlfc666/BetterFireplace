@@ -16,7 +16,7 @@ public class Plugin : BasePlugin
 
 public static class MyPluginInfo
 {
-    public const string PluginGuid = "MlfcBetterFireplace";
+    public const string PluginGuid = "moe.mlfc.BetterFireplace";
     public const string PluginName = "MlfcBetterFireplace";
     public const string PluginVersion = "1.0.20260218.18";
 }
