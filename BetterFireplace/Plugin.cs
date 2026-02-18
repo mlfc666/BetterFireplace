@@ -4,6 +4,7 @@ using BepInEx.Unity.IL2CPP;
 
 namespace BetterFireplace;
 
+[BepInDependency(AssetRedux.AssetReduxInfo.PluginGuid)]
 [BepInPlugin(MyPluginInfo.PluginGuid, MyPluginInfo.PluginName, MyPluginInfo.PluginVersion)]
 public class Plugin : BasePlugin
 {
